@@ -13,13 +13,11 @@ block contenido
                     div
                         label(class="block text-sm uppercase text-slate-600 mb-2 font-bold" for="correo") Correo de Registro
                         input(class="w-full px-3 py-2 border border-slate-300 rounded-md placeholder-slate-400" placeholder="Tu Correo" type="email" name="correo")
-                    div
-                        label(class="block text-sm uppercase text-slate-600 mb-2 font-bold" for="clave") Contraseña
-                        input(class="w-full px-3 py-2 border border-slate-300 rounded-md placeholder-slate-400" placeholder="Tu contraseña" type="password" name="clave")
                     
                     div(class="flex items-center justify-between px-1")
+                        a(href="/auth/login" class="text-slate-400 text-xs") ¿Ya tienes cuenta? 
+                            span(class="text-indigo-800") Inicia Sesión
                         a(href="/auth/registro" class="text-slate-400 text-xs") ¿No tienes cuenta? 
                             span(class="text-indigo-800") Crea una
-                        a(href="/auth/recuperacion" class="text-slate-400 text-xs") Olvidé mi contraseña
                     
-                    input(class="font-boton w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 cursor-pointer rounded-sm" type="submit" value="Iniciar Sesión")
+                    input(class="font-boton w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 cursor-pointer rounded-sm" type="submit" value="Enviar Instrucciones")

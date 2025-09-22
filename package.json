@@ -1,5 +1,5 @@
 {
-    "name": "CataSys",
+    "name": "catasys",
     "version": "1.0.0",
     "description": "Sistema web para el centro oftalmologico de cataratas",
     "main": "index.js",
